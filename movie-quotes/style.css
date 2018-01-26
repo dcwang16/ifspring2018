@@ -1,0 +1,40 @@
+body {
+	background-color: black;
+	padding-left: 350px;
+	padding-top: 0px;
+	font-family: Avenir;
+	color: white;
+}
+
+span {
+	color:#ff0000;
+}
+
+span1{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+span2{
+	font-style: italic;
+	color:#9a9a9a;
+}
+
+strong {
+	color:#ff0000;
+	font-weight: bold;
+}
+
+p {
+	width: 700px;
+	outline: 1px solid white;
+	outline-offset: 10px;
+}
+
+img {
+	 width: 100px;
+	 height: 60px;
+	 position: relative;
+	 top: 20px;
+	 right: 5px;
+}
