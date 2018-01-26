@@ -1,0 +1,9 @@
+body {
+	padding-top: 100px;
+	padding-left: 50px;
+	background-color:#a6a6a6;
+	/*color:white;*/
+	font-family: monospace;
+	font-size: 15px;
+	width: 1000px;
+}
