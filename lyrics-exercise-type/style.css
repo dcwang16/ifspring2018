@@ -1,0 +1,98 @@
+body {
+	background-color: #cba87a;
+}
+
+h1 {
+	position: fixed;
+	color: white;
+	font-family: "Sanchez";
+	font-weight: normal;
+	font-size: 35px;
+	width: 700px;
+	padding-top: 90px;
+	padding-left: 25px;
+	text-align: left;
+}
+
+h2 {
+	position: fixed;
+	color: white;
+	font-family: "Sanchez";
+	font-weight: normal;
+	font-size: 30px;
+	width: 700px;
+	padding-top: 145px;
+	padding-left: 25px;
+	text-align: left;
+}
+
+h3 {
+	position: fixed;
+	color: white;
+	font-family: "Sanchez";
+	font-weight: normal;
+	font-size: 25px;
+	width: 700px;
+	padding-top: 200px;
+	padding-left: 25px;
+	text-align: left;
+}
+
+p {
+	color: white;
+	font-family: "Maven Pro", Courier, monospace;
+	font-size: 18px;
+	width: 800px;
+	padding-top: 20px;
+	padding-left: 600px;
+	text-align: center;
+	text-transform: lowercase;
+	margin-bottom: 5px;
+	line-height: 25px;
+}
+
+hr {
+ 	width: 50px;
+ 	margin-right: 24.5em;
+ 	color: #9f763f;
+}
+
+div {
+	padding-top: 20px;
+}
+
+.chorus {
+ 	color: #805e33;
+}
+
+.bar1 {
+	top: 290px;
+	position: fixed;
+	width: 15px;
+	height: 375px;
+	left: 35px;
+}
+
+.bar2 {
+	top: 290px;
+	position: fixed;
+	width: 15px;
+	height: 275px;
+	left: 60px;
+}
+
+.bar3 {
+	top: 290px;
+	position: fixed;
+	width: 15px;
+	height: 175px;
+	left: 85px;
+}
+
+.bar4 {
+	top: 290px;
+	position: fixed;
+	width: 15px;
+	height: 75px;
+	left: 110px;
+}
