@@ -1,0 +1,97 @@
+body {
+	font-family: "Raleway", "Helvetica", sans-serif;
+	font-size:14pt;
+	background-color: #f2f2f2;
+}
+
+h1 {
+	position:fixed;
+	top: 0;
+	right: 0;
+	margin-right: 20px;
+	text-align: right;
+}
+
+h2 {
+	position:fixed;
+	top: 0;
+	right: 0;
+	margin-right: 20px;
+	margin-top: 70px;
+	text-align: right;
+}
+
+div {
+	line-height: 1;
+	margin-left: 50px;
+}
+
+h4 {
+	margin-bottom: .5em;	
+	font-weight: 600;
+	font-size: 1.5em;
+	color: rgba(0,0,255,.9);
+}
+
+h5 {
+	margin-left: 2em;
+	margin-bottom: -.5em;
+	color: rgba(0,0,255,.5);
+}
+
+p {
+	margin-left: 2em;
+	margin-bottom: -.5em;
+}
+
+.exLite {
+	font-weight: 200;
+}
+
+.boldText {
+	font-weight: 700;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.oblique {
+	font-style: oblique;
+}
+
+.closeSpace {
+	letter-spacing: -1px;
+}
+
+.wideSpace {
+	letter-spacing: 1px;
+}
+
+.exWideSpace {
+	letter-spacing: 2px;
+}
+
+.capit {
+	text-transform: capitalize;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.underline {
+	text-decoration: underline; 
+}
+
+.overline {
+	text-decoration: overline;
+}
+
+.linethrough {
+	text-decoration: line-through;
+}
