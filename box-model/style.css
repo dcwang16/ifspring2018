@@ -1,0 +1,170 @@
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	/*background-image: url("https://wudesign.me/resources/html_tracing/images/bg.png");*/
+	background-position: center top;
+	min-height: 2380px;
+	font-family: "Archivo Narrow";
+}
+
+#section1 {
+	margin-top: 0;
+	height: 480px;
+	background-image: url("forest.jpg");
+	background-size: cover;
+}
+
+#section1 h1 {
+	padding-top: 163px;
+	padding-right: 2px;
+	margin-top: 0;
+	margin-bottom: 13px;
+	text-align: center;
+	font-size: 80px;
+}
+
+#section1 h2 {
+	margin-top: 0;
+	text-align: center;
+	font-size: 30px;
+}
+
+#section2 {
+	margin-top: 0;
+	height: 712px;
+	background-color: #00802b;
+}
+
+#section2 div {
+	width: 960px;
+	margin: auto;
+}
+
+#section2 h2 {
+	margin-top: 0;
+	margin-bottom: 37px;
+	padding-top: 45px;
+	padding-left: 1px;
+	text-align: center;
+	font-size: 40px;
+}
+
+#section2 p {
+	margin: auto;
+	width: 960px;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+#section2 img {
+	float: right;
+	margin-top: 1px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	margin-right: 1px;
+	width: 400px;
+	height: 300px;
+	object-fit: cover;
+}
+
+#section2 .p2 {
+	margin-bottom: 14px;
+}
+
+#section2 .p3 {
+	margin-top: 0px;
+}
+
+#section3 {
+	height: 687px;
+	background-color: #009933;
+}
+
+#section3 h2 {
+	margin-top: 0px;
+	margin-bottom: 37px;
+	padding-top: 45px;
+	padding-left: 1px;
+	text-align: center;
+	font-size: 40px;
+}
+
+#section3 .columns {
+	width: 960px;
+	margin: auto;
+}
+
+.pics {
+	float: left;
+}
+
+.pics img {
+	display: block;
+	padding-bottom: 24px;
+	width: 200px;
+	height: 150px;
+	object-fit: cover;
+}
+
+.text {
+	float: left;
+}
+
+.text h5 {
+	font-size: 20px;
+	margin-top: 4px;
+	padding-left: 12px;
+	margin-bottom: 0px;
+}
+
+.text p {
+	margin-top: 10px;
+	padding-left: 12px;
+	font-size: 18px;
+	width: 225px;
+	line-height: 24px;
+	padding-bottom: 24px;
+}
+
+.title2 {
+	padding-top: 4px;
+	margin-bottom: 0px;
+}
+
+.title3 {
+	padding-top: 4px;
+}
+
+.pics:nth-child(3) {
+	padding-left: 43px;
+}
+
+#section4 {
+	height: 400px;
+	background-color: #00b33c;
+}
+
+#section4 h2 {
+	margin-top: 0px;
+	margin-bottom: 37px;
+	padding-top: 45px;
+	padding-left: 1px;
+	text-align: center;
+	font-size: 40px;
+}
+
+#section4 p {
+	margin: auto;
+	text-align: center;
+	font-size: 26px;
+	width: 715px;
+	line-height: 35px;
+}
+
+#copyright {
+	margin: auto;
+	margin-top: 44px;
+	width: 960px;
+	font-size: 18px;
+}
