@@ -1,0 +1,652 @@
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#main_content {
+	margin: 40px;
+}
+
+h1 {
+ 	font-size: 30px;
+ 	margin-bottom: 40px;
+}
+
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+a#btn_spotify {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #2ebd59;
+	border: 2px solid #2ebd59;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_spotify:hover {
+	background-color: #fff;
+	border: 2px solid #000;
+	color: #000;
+}
+
+
+a#btn_twitter {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 105px;
+	padding: 10px 30px 0 30px;
+	background-color: #56cdf1;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_twitter:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+	background: #2ebfec; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+}
+
+
+a#btn_amazon {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background-color: #232f3e;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+}
+
+a#btn_amazon:hover {
+	background-color: #fc9a18;
+}
+
+
+a#btn_indiegogo {
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: #fff;
+	color: #eb1478;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: -2px;
+}
+
+a#btn_indiegogo:hover {
+	color: #fff;
+	background-color: #eb1478;
+}
+
+/*apple*/
+a#apple{
+	display: block;	
+}
+
+#apple img:last-child {
+	height: 150px;
+	margin-top: 50px;
+	display: none;
+}
+
+#apple img:first-child {
+	display: block;
+	height: 150px;
+	width: 150px;
+	margin: auto;
+	margin-top: 50px;
+	object-fit: contain;
+}
+
+a#apple:hover img:first-child{
+	display: none;
+}
+
+a#apple:hover img:last-child {
+	display: inline-block;
+	margin-bottom: 30px;
+}
+/*apple*/
+
+/*insta*/
+a#instagram {
+	display: block;
+	margin: auto;
+	margin-top: 60px;
+	color: #000;
+	text-align: center;
+	font-size: 100px;
+}
+a#instagram{
+	display: block;	
+}
+
+#instagram img{
+	height: 150px;
+	display: none;
+}
+
+#instagram i{
+	display: block;
+	height: 150px;
+	width: 150px;
+	padding-top: 25px;
+	margin: auto;
+	object-fit: contain;
+}
+
+a#instagram:hover i{
+	display: none;
+}
+
+a#instagram:hover img{
+	display: inline-block;
+	margin-bottom: 50px;
+}
+/*insta*/
+
+/*facebook*/
+a#facebook {
+	display: block;
+	margin: auto;
+	margin-top: 60px;
+	color: #000;
+	text-align: center;
+	font-size: 100px;
+}
+
+a#facebook:hover {
+	color: #3b5998;
+}
+/*facebook*/
+
+/*foreflight*/
+a#foreflight {
+	display: block;
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	text-decoration: none;
+	margin-top: 100px;
+}
+
+a#foreflight:hover {
+	color: #ddd;
+	transform: translateY(-60px);
+	transition-duration: 1s;
+}
+/*foreflight*/
+
+/*craigslist*/
+a#craigslist {
+	display: block;
+	font-size: 30px;
+	margin: auto;
+	font-family: serif;
+	margin-top: 100px;
+}
+
+a#craigslist:hover {
+	font-family: sans-serif;
+}
+/*craigslist*/
+
+/*oldnavy*/
+a#oldnavy {
+	display: block;
+	font-size: 30px;
+	margin: auto;
+	font-family: Open Sans;
+	font-weight: bolder;
+	margin-top: 100px;
+	text-decoration: none;
+	color: #004d99;
+}
+
+a#oldnavy:hover {
+	width: 200px;
+	background-color: #004d99;
+	color: #fff;
+}
+/*oldnavy*/
+
+/*colorrun*/
+a#color {
+	display: block;
+	font-size: 30px;
+	margin: auto;
+	font-family: Verdana;
+	margin-top: 100px;
+	text-decoration: none;
+	color: black;
+}
+
+a#color:hover {
+	font-family: Ubuntu;
+	width: 100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff3232+0,fceb00+100 */
+	background: #ff3232; /* Old browsers */
+	background: -moz-linear-gradient(top, #ff3232 0%, #fceb00 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ff3232 0%,#fceb00 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ff3232 0%,#fceb00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#fceb00',GradientType=0 ); /* IE6-9 */
+}
+/*colorrun*/
+
+/*kittens*/
+a#kittens{
+	display: block;	
+}
+
+#kittens img:last-child {
+	height: 150px;
+	margin-top: 50px;
+	display: none;
+}
+
+#kittens img:first-child {
+	display: block;
+	height: 150px;
+	width: 150px;
+	margin: auto;
+	margin-top: 50px;
+	object-fit: contain;
+}
+
+a#kittens:hover img:first-child{
+	display: none;
+}
+
+a#kittens:hover img:last-child {
+	display: inline-block;
+	margin-bottom: 30px;
+}
+/*kittens*/
+
+/*NIKE*/
+a#nike{
+	display: inline-block;
+	margin-top: 100px;
+}
+
+#nike img{
+	height: 140px;
+	display: none;
+}
+
+#nike span{
+	display: inline-block;
+	margin-right: 30px;
+	font-size: 30px;
+	font-family: Impact;
+	font-style: italic;
+	color: black;
+}
+
+a#nike:hover span{
+	display: none;
+}
+
+a#nike:hover img{
+	display: block;
+}
+/*NIKE*/
+
+
+a#velocity {
+	font-family: Montserrat;
+	display: block;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	margin-top: 100px;
+}
+
+a#velocity:hover {
+	font-style: oblique;
+	font-weight: lighter;
+	transition-duration: 1s;
+}
+
+/*hsn*/
+a#hsn {
+	font-family: Ubuntu;
+	display: block;
+	box-sizing: content-box;
+	border-radius: 50px;
+	background-color: #0080ff;
+	margin: auto;
+	font-size: 30px;
+	margin-top: 100px;
+	text-decoration: none;
+	color: #0080ff;
+	font-style: bolder;
+	width: 90px;
+}
+
+a#hsn:hover {
+	color: white;
+	transition-duration: 0.5s;
+}
+/*hsn*/
+
+a#fitbit {
+	font-family: Montserrat;
+	display: block;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	margin-top: 100px;
+}
+
+a#fitbit:hover {
+	transform: translateX(50px);
+	transition-duration: 0.5s;
+}
+
+a#coke img{
+	display: block;
+	height: 250px;
+	width: 250px;
+	margin: auto;
+	object-fit: contain;
+}
+
+a#coke:hover img{
+	transform: rotate(10deg);
+	transition-duration: 1s;
+}
+
+/*OFA*/
+a#ofaO {
+	font-family: Patua One;
+	font-style: bolder;
+	display: inline-block;
+	font-size: 50px;
+	text-decoration: none;
+	color: black;
+	margin-top: 100px;
+	color: red;
+}
+a#ofaF {
+	font-family: Patua One;
+	font-style: bolder;
+	display: inline-block;
+	font-size: 50px;
+	text-decoration: none;
+	color: black;
+	margin-top: 100px;
+}
+a#ofaA {
+	font-family: Patua One;
+	font-style: bolder;
+	display: inline-block;
+	font-size: 50px;
+	text-decoration: none;
+	color: black;
+	margin-top: 100px;
+	color: blue;
+}
+#ofaO:hover {
+	transform: translateX(-20px);
+	transition-duration: 1s;
+}
+#ofaA:hover {
+	transform: translateX(20px);
+	transition-duration: 1s;
+}
+/*OFA*/
+
+a#mbg {
+	display: block;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	margin-top: 100px;
+}
+
+a#mbg:hover {
+	transform: rotate(360deg);
+	transition-duration: 1s;
+}
+
+a#moo {
+	font-family: Raleway;
+	display: block;
+	font-size: 40px;
+	text-decoration: none;
+	color: #00802b;
+	margin-top: 100px;
+}
+
+a#moo:hover {
+	text-shadow: 0px 4px 2px rgba(150, 150, 150, 1);
+}
+
+a#cn {
+	font-family: Rammetto One;
+	display: block;
+	font-size: 50px;
+	text-decoration: none;
+	color: black;
+	margin-top: 100px;
+}
+
+a#cn:hover {
+	color: white;
+	background-color: black;
+}
+
+/*tesla*/
+a#tesla{
+	display: block;	
+}
+
+#tesla img:last-child {
+	height: 150px;
+	margin-top: 50px;
+	display: none;
+}
+
+#tesla img:first-child {
+	display: block;
+	height: 150px;
+	width: 150px;
+	margin: auto;
+	margin-top: 50px;
+	object-fit: contain;
+}
+
+a#tesla:hover img:first-child{
+	display: none;
+}
+
+a#tesla:hover img:last-child {
+	display: inline-block;
+	margin-bottom: 30px;
+}
+/*tesla*/
+
+a#newyorker {
+	font-family: Crimson Text;
+	display: block;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	margin-top: 100px;
+}
+
+a#newyorker:hover {
+	transform: skew(-20deg);
+	transition-duration: 1s;
+}
+
+/*npr*/
+a#nprn {
+	font-family: Montserrat;
+	display: inline-block;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	margin-top: 100px;
+}
+a#nprp {
+	font-family: Montserrat;
+	display: inline-block;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	margin-top: 100px;
+}
+a#nprr {
+	font-family: Montserrat;
+	display: inline-block;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	margin-top: 100px;
+}
+a#nprn:hover {
+	color: #ff471a;
+}
+a#nprr:hover {
+	color: #0066cc;
+}
+/*npr*/
+
+a#army img{
+	display: block;
+	height: 150px;
+	width: 150px;
+	margin: auto;
+	margin-top: 50px;
+	object-fit: contain;
+	box-sizing: content-box;
+}
+
+a#army:hover img {
+	box-sizing: content-box;
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+a#ideo {
+	font-family: Ubuntu;
+	display: block;
+	font-size: 30px;
+	text-decoration: none;
+	color: #2991bd;
+	margin-top: 100px;
+}
+
+a#ideo:hover {
+	color: #e29212;
+	transform: scale(2);
+	transition-duration: 0.5s;
+}
+
+a#sardella {
+	font-family: Bangers;
+	display: block;
+	font-size: 80px;
+	text-decoration: none;
+	color: #00e6e6;
+	margin-top: 100px;
+}
+
+a#sardella:hover {
+	transform: scaleY(2);
+	transition-duration: 1s;
+}
+
+a#hogan {
+	font-family: Impact;
+	display: block;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	margin-top: 100px;
+	text-align: center;
+}
+
+a#hogan:hover {
+	display: inline-block;
+	margin: auto;
+	font-size: 50px;
+	margin-top: 60px;
+	text-align: center;
+	color: orange;
+}
+
+/*pottermore*/
+a#pottermore {
+    width: 130px;
+    height: 195px;
+    position: relative;
+    display: inline-block;
+}
+a#pottermore img:first-child {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+
+}
+a#pottermore:hover img:first-child {
+    display: inline;
+    display: block;
+	height: 150px;
+	width: 150px;
+	margin-top: 50px;
+	margin-right: 20px;
+	object-fit: contain;
+}
+/*pottermore*/
+
+
+
+
+
