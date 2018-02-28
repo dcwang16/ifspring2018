@@ -1,0 +1,56 @@
+body {
+	font-family: Raleway;
+	text-align: center;
+	background-color: #d6d6d6;
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 33px;
+	margin-top: 12px;
+	margin-bottom: 60px;
+}
+
+h3 {
+	font-style: italic;
+	font-size: 27px;
+}
+
+hr {
+	width: 250px;
+}
+
+.suggestions {
+	margin-bottom: 0px;
+}
+
+p {
+	font-size: 17px;
+	line-height: 1.5rem;
+	margin-top: 0px;
+}
+
+div {
+	width: 400px;
+	margin: auto;
+	margin-bottom: 15px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+	background-color: #c6c6c6;
+}
+
+img {
+	width: 1000px;
+	height: 100%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.last {
+	margin-top: 50px;
+}
