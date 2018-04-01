@@ -1,0 +1,248 @@
+h1 {
+	font-family: "Ubuntu", "Helvetica", sans-serif;
+	z-index: 1000;
+}
+
+h2 {
+	font-family: "Josefin Sans", "Arial", sans-serif;
+	z-index: 1000;
+}
+
+a {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 700px;
+	z-index: 10000;
+}
+
+#card1 {
+	overflow: hidden;
+}
+
+#card2 {
+	overflow: hidden;
+}
+
+#card3 {
+	background-image: url("space.png");
+	overflow: hidden;
+}
+
+#card1 h1:before {
+		content: '"';
+		position: absolute;
+		margin-left: -.4em;
+	}
+
+#card1 h1:after {
+	position: absolute;
+	content: '"';
+}
+
+#card3 h1:before {
+		content: '"';
+		position: absolute;
+		margin-left: -.4em;
+	}
+
+#card3 h1:after {
+	position: absolute;
+	content: '"';
+}
+
+@media screen and (min-width: 800px) {
+	#card1 {
+		background-color: #ffd200;
+		position: relative;
+		color: black;
+	}
+
+	#card2 {
+		position: relative;
+		background-color: #cd3f2e;
+	}
+
+	#card3 {
+		background-color: black;
+		color: white;
+	}
+
+	#card1 h1 {
+		font-size: 27px;
+		position: absolute;
+		top: 350px;
+		left: 50px;
+		width: 500px;
+	}
+
+	#card1 h2 {
+		position: absolute;
+		top: 430px;
+		left: 50px;
+	}
+
+	#card1 h1:before {
+		content: '"';
+		position: absolute;
+		margin-left: -.4em;
+	}
+
+	#card1 h1:after {
+		position: absolute;
+		content: '"';
+	}
+
+	#card1 img {
+		position: absolute;
+		top: -100px;
+		right: 0px;
+	}
+
+	#card2 .line1 {
+		font-size: 27px;
+		position: absolute;
+		top: 150px;
+		left: 75px;
+	}
+
+	#card2 .line2 {
+		font-size: 27px;
+		position: absolute;
+		top: 150px;
+		right: 75px;
+	}
+
+	#card2 h2 {
+		position: absolute;
+		top: 200px;
+		right: 75px;
+	}
+
+	#card2 img {
+		display: block;
+		margin: auto;
+	}
+
+	#card3 h1 {
+		width: 300px;
+		font-size: 23px;
+		position: absolute;
+		left: 10%;
+		top: 40%;
+	}
+
+	#card3 h2 {
+		width: 300px;
+		font-size: 18px;
+		position: absolute;
+		left: 10%;
+		top: 48%;
+	}
+
+	#card3 img {
+		position: absolute;
+		width: 350px;
+		top: 25%;
+		right: 10%;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	#card1 h1 {
+		width: 270px;
+		font-size: 20px;
+	}
+
+	#card1 h2 {
+		font-size: 18px;
+		top: 460px;
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	#card1 {
+		background-color: #ffd200;
+		position: relative;
+		color: black;
+		overflow: hidden;
+	}
+	
+	#card1 h1 {
+		position: absolute;
+		left: 30%;
+		top: 10%;
+		text-align: center;
+		font-size: 30px;
+		width: 270px;
+	}
+
+	#card1 h2 {
+		position: absolute;
+		left: 30%;
+		top: 200px;
+		text-align: center;
+		font-size: 30px;
+		width: 270px;
+	}
+
+	#card1 img {
+		position: absolute;
+		left: 50%;
+		top: 25%;
+		transform: translateX(-50%);
+	}
+
+	#card2 {
+		background-color: #cd3f2e;
+		position: relative;
+		color: black;
+	}
+
+	#card2 h1 {
+		margin-left: 15%;
+		/*margin: auto;*/
+		width: 500px;
+	}
+
+	#card2 h2 {
+		margin-left: 15%;
+		/*margin: auto;*/
+		width: 500px;
+	}
+
+	#card2 img {
+		/*margin: auto;*/
+		width: 500px;
+	}
+
+	#card3 h1 {
+		color: white;
+		font-size: 23px;
+		width: 300px;
+		position: absolute;
+		left: 15%;
+		top: 30%;
+	}
+
+	#card3 h2 {
+		color: white;
+		font-size: 18px;
+		width: 200px;
+		position: absolute;
+		left: 15%;
+		top: 38%;
+	}
+
+	#card3 img {
+		position: absolute;
+		margin: auto;
+		bottom: -73%;
+		transform: scale(.8);
+	}
+}
+
