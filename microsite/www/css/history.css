@@ -1,0 +1,51 @@
+#timeline #circle {
+	position: absolute;
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 10px solid black;
+	top: 37%;
+	left: 7%;
+}
+
+#timeline #line {
+	position: absolute;
+	background-color: black;
+	width: 10px;
+	height: 5000px;
+	top: 37%;
+	left: 9%;
+}
+
+#russel {
+	position: relative;
+	top: 30%;
+}
+
+#russel .era {
+	position: absolute;
+	font-family: "Hind", "Verdana", sans-serif;
+	font-size: 3rem;
+	font-weight: 700;
+	text-align: center;
+	left: 20%;
+}
+
+#russel img {
+	position: absolute;
+	width: 40%;
+	top: 0;
+	left: 50%;
+}
+
+#russel .body {
+	position: absolute;
+	font-family: "Hind", "Verdana", sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	text-align: left;
+	margin-top: 30%;
+	width: 70%;
+	left: 20%;
+}

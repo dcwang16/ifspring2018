@@ -1,0 +1,73 @@
+body {
+	position: relative;
+	font-family: "Hind", Helvetica, sans-serif;
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+#big {
+	position: absolute;
+	top: 10%;
+	bottom: 10%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 30%;
+	z-index: 10;
+}
+
+#circle {
+	position: absolute;
+	top: 10%;
+	bottom: 10%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 39%;
+	z-index: 9;
+}
+
+.button {
+	position: absolute;
+	box-sizing: border-box;
+	background-color: rgb(0,133,62);
+	color: white;
+	text-decoration: none;
+	z-index: 5;
+}
+
+#intro {
+	top: 30%;
+	left: 11%;
+	padding: 7px 100px 7px 90px;
+}
+
+#history {
+	top: 45%;
+	left: 7%;
+	padding: 7px 90px 7px 80px;
+}
+
+#rivals {
+	top: 60%;
+	left: 11%;
+	padding: 7px 110px 7px 80px;
+}
+
+#arena {
+	top: 30%;
+	right: 11%;
+	padding: 7px 70px 7px 120px;
+}
+
+#roster {
+	top: 45%;
+	right: 7%;
+	padding: 7px 80px 7px 90px;
+}
+
+#logos {
+	top: 60%;
+	right: 11%;
+	padding: 7px 70px 7px 120px;
+}

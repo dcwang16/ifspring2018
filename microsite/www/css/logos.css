@@ -1,0 +1,25 @@
+#first {
+	display: block;
+	margin: auto;
+	padding-top: 8%;
+}
+
+#logos img {
+	display: block;
+	padding-top: 10%;
+	margin: auto;
+}
+
+#logos p {
+	display:block;
+	font-family: "Roboto Slab", "Times", serif;
+	font-size: 2.5rem;
+	font-weight: 500;
+	margin: auto;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#spacer {
+	height: 50px;
+}

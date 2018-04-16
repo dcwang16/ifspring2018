@@ -1,0 +1,20 @@
+#player1 img {
+	display: inline-block;
+	margin-top: 12%;
+	margin-left: 10%;
+	width: 40%;
+}
+
+h2 {
+	display: inline-block;
+	font-family: "Roboto Slab", "Times", serif;
+	font-size: 3.5rem;
+	margin-left: 1rem;
+}
+
+#players img {
+	display: inline-block;
+	margin-top: 3%;
+	margin-left: 10%;
+	width: 40%;
+}
