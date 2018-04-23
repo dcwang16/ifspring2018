@@ -4,14 +4,15 @@
 	padding-top: 8%;
 }
 
-#logos img {
+#content img {
 	display: block;
 	padding-top: 10%;
 	margin: auto;
+	width: 500px;
 }
 
-#logos p {
-	display:block;
+#content p {
+	display: block;
 	font-family: "Roboto Slab", "Times", serif;
 	font-size: 2.5rem;
 	font-weight: 500;
