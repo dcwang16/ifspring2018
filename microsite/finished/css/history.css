@@ -1,0 +1,82 @@
+#timeline .circle {
+	position: absolute;
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 10px solid black;
+	left: 7%;
+	z-index: 1;
+}
+
+#timeline #circ1 {
+	top: 37%;
+}
+
+#timeline #circ2 {
+	top: 200%;
+}
+
+#timeline #circ3 {
+	top: 390%;
+}
+
+#timeline #line {
+	position: absolute;
+	background-color: black;
+	width: 10px;
+	height: 360%;
+	top: 38%;
+	left: 9%;
+}
+
+#russel {
+	position: relative;
+	top: 30%;
+}
+
+.era {
+	position: absolute;
+	font-family: "Hind", "Verdana", sans-serif;
+	font-size: 3rem;
+	font-weight: 700;
+	text-align: center;
+	left: 20%;
+}
+
+img {
+	position: absolute;
+	width: 40%;
+	top: 0;
+	left: 50%;
+}
+
+.body {
+	position: absolute;
+	font-family: "Hind", "Verdana", sans-serif;
+	font-size: 1.2rem;
+	font-weight: 400;
+	text-align: left;
+	margin-top: 30%;
+	width: 70%;
+	left: 20%;
+}
+
+#bird {
+	position: relative;
+	top: 190%;
+}
+
+#pierce {
+	position: relative;
+	top: 380%;
+}
+
+@media (max-width: 1100px) {
+	img {
+		width: 33%;
+	}
+	.era {
+		font-size: 2rem;
+	}
+}

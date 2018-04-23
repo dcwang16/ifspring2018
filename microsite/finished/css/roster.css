@@ -1,0 +1,64 @@
+#player1 img {
+	display: inline-block;
+	margin-top: 12%;
+	margin-left: 10%;
+	width: 40%;
+}
+
+h2 {
+	display: inline-block;
+	font-family: "Roboto Slab", "Times", serif;
+	font-size: 3.5rem;
+	margin-left: 1rem;
+}
+
+#players img {
+	display: inline-block;
+	margin-top: 3%;
+	margin-left: 10%;
+	width: 40%;
+}
+
+#topmenu #logos {
+	z-index: 30;
+}
+
+strong {
+	font-size: 7rem;
+}
+
+span {
+	font-weight: lighter;
+}
+
+.come-in {
+  transform: translateX(-150px);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s; /* So they look staggered */
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
+@media (max-width: 1100px) {
+	strong {
+		font-size: 5rem;
+	}
+
+	h2 {
+		font-size: 3rem;
+	}
+}
+
+@media (max-width: 800px) {
+	strong {
+		font-size: 4rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+}
