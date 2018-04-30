@@ -1,0 +1,93 @@
+body {
+	background-image: url(../images/guitarcropped.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	position: fixed;
+	color: white;
+	font-family: "Sanchez";
+	font-weight: normal;
+	font-size: 37px;
+	width: 700px;
+	padding-top: 30px;
+	padding-left: 40px;
+	text-align: left;
+	margin-top: 0;
+}
+
+h2 {
+	position: fixed;
+	color: white;
+	font-family: "Sanchez";
+	font-weight: normal;
+	font-size: 30px;
+	width: 700px;
+	padding-top: 120px;
+	padding-left: 40px;
+	text-align: left;
+}
+
+/*h3 {
+	position: fixed;
+	color: white;
+	font-family: "Sanchez";
+	font-weight: normal;
+	font-size: 25px;
+	font-style: italic;
+	width: 700px;
+	padding-top: 140px;
+	padding-left: 30px;
+	text-align: left;
+}*/
+
+p {
+	color: #000;
+	font-family: "Roboto Slab", Courier, monospace;
+	font-size: 17px;
+	font-weight: normal;
+	width: 600px;
+	padding-top: 0px;
+	padding-left: 700px;
+	text-align: left;
+	/*text-transform: lowercase;*/
+	margin-bottom: 5px;
+	line-height: 25px;
+}
+
+.lyrics {
+	padding-top: 25px;
+}
+
+.wrapper {
+	position: relative;
+}
+
+.chorus {
+	font-weight: bolder;
+}
+
+#spotify {
+	position: absolute;
+	color: #000;
+	left: 80px;
+	bottom: -10px;
+	font-size: 30px;
+}
+
+#youtube {
+	position: absolute;
+	color: #000;
+	left: 110px;
+	bottom: 20px;
+	font-size: 30px;
+}
+
+#lastfm {
+	position: absolute;
+	color: #000;
+	left: 50px;
+	bottom: -30px;
+	font-size: 25px;
+}
